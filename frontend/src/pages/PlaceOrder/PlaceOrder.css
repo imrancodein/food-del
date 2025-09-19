@@ -1,0 +1,45 @@
+.place-order{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: start;
+    
+}
+.place-order-left{
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.place-order-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    outline-color: tomato;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+}
+.place-order-left .multifield{
+    display: flex;
+    gap: 20px;
+}
+.place-order-right{
+    width: 100%;
+    max-width: max(40%,500px);;
+}
+.cart-total button{
+    margin-top: 20px;
+}
+
+/* MedaiQuary */
+@media (max-width:750px) {
+    .place-order{
+        display: block;
+        flex-direction: column-reverse;
+        
+    }
+    
+}
